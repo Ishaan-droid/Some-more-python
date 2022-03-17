@@ -43,6 +43,9 @@ prices = [12,56,47,4,86,45,678,34221]
 prices.sort()
 prices.sort(reverse=True)
 
+# SORTED METHOD IS USED TO SORT MAPS AND DICT; sorted(list(set(arr)))
+# sorted(iterable, key, reverse=True) => True is for descending order
+
 print(prices)
 
 newPrices = prices.copy()
